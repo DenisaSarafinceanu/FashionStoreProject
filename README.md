@@ -13,13 +13,13 @@ What can you do on this page?
 - Postgres Database in which the data is stored 
 
 The classes diagram:
-![Class diagram]('diagram.png')
+![Class diagram](images/diagram.png)
 
 The database system:
-![Database diagram](‪'database.png')
+![Database diagram](‪images/database.png)
 
 In both the Java Classes and Database table, I started with the same aproach, in which i have a general class Product and it divides into specific types of products (clothes): jackets, sweatshirts, sweaters, tshirts, trousers, shoes and accesories. The data for each of them is taken from the database and then constructed in the ItemController in which you can select the product you want and the size. 
-![Database diagram]('items.png')
+![Database diagram](images/items.png)
 If you press any of the 'Add to Cart' button, it authomatically inserts in the database the product associated with the user data and it can be visible if the button 'Go to cart' is pressed.
-![Database diagram](‪'cart.png')
+![Database diagram](‪images/cart.png)
 It is also possible to delete from the database by pressing the icon of delete.
