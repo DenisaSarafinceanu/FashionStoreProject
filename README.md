@@ -32,7 +32,8 @@ It is also possible to delete from the database by pressing the icon of delete.
 
 - One example of connecting the database to select the data for the items: 
 
-```sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 122"; // Query to fetch required columns
+```
+sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 122"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
                 Statement statement = connection.createStatement();
@@ -47,7 +48,8 @@ It is also possible to delete from the database by pressing the icon of delete.
             setData_shoes11(shoesList);
         } catch (SQLException e) {
             e.printStackTrace();
-        }```
+        }
+```
   --------------------------------------------------------
   This is the functionality of my project.
   Thank you! ✨
