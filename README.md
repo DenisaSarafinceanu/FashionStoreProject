@@ -52,5 +52,6 @@ sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 122"; // Qu
 ```
   --------------------------------------------------------
   This is the functionality of my project.
+  
   Thank you! ✨
  
