@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="670.0" prefWidth="1343.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fashionstore.ItemController">
+   <children>
+      <Button fx:id="articles" layoutX="1075.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToArticles" style="-fx-background-color: Gainsboro ;" text="Articles" textFill="#151515">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="sign_in" layoutX="1217.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToSignIn" style="-fx-background-color: Gainsboro ;" text="Sign Up" textFill="#131212">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="log_in" layoutX="1350.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToLogIn" style="-fx-background-color: Gainsboro ;" text="Log In" textFill="#181818">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="671.0" layoutY="134.0" prefHeight="40.0" prefWidth="199.0" text="New Collection">
+         <font>
+            <Font name="System Italic" size="28.0" />
+         </font>
+      </Label>
+      <Separator layoutX="82.0" layoutY="125.0" prefHeight="18.0" prefWidth="1361.0" />
+      <ImageView fx:id="image1" fitHeight="182.0" fitWidth="255.0" layoutX="49.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image2" fitHeight="182.0" fitWidth="255.0" layoutX="313.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image3" fitHeight="182.0" fitWidth="255.0" layoutX="584.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image4" fitHeight="182.0" fitWidth="255.0" layoutX="820.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image5" fitHeight="182.0" fitWidth="255.0" layoutX="1070.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image7" fitHeight="182.0" fitWidth="255.0" layoutX="70.0" layoutY="542.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image8" fitHeight="182.0" fitWidth="255.0" layoutX="385.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image9" fitHeight="182.0" fitWidth="255.0" layoutX="670.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image10" fitHeight="182.0" fitWidth="255.0" layoutX="960.0" layoutY="542.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image11" fitHeight="182.0" fitWidth="255.0" layoutX="1239.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="image6" fitHeight="182.0" fitWidth="255.0" layoutX="1306.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <Label fx:id="text_button1" layoutX="75.0" layoutY="416.0" text="text" visible="false" />
+      <Label fx:id="text_button2" layoutX="352.0" layoutY="416.0" text="text" visible="false" />
+      <Label fx:id="text_button3" layoutX="607.0" layoutY="416.0" text="text" visible="false" />
+      <Label fx:id="text_button4" layoutX="853.0" layoutY="416.0" text="text" visible="false" />
+      <Label fx:id="text_button6" layoutX="1332.0" layoutY="419.0" text="text" visible="false" />
+      <Label fx:id="text_button7" layoutX="110.0" layoutY="725.0" text="text" visible="false" />
+      <Label fx:id="text_button8" layoutX="430.0" layoutY="724.0" text="text" visible="false" />
+      <Label fx:id="text_button9" layoutX="702.0" layoutY="724.0" text="text" visible="false" />
+      <Label fx:id="text_button10" layoutX="989.0" layoutY="724.0" text="text" visible="false" />
+      <Label fx:id="text_button11" layoutX="1275.0" layoutY="725.0" text="text" visible="false" />
+      <Label fx:id="price_button1" layoutX="123.0" layoutY="437.0" text="price" visible="false" />
+      <Label fx:id="price_button2" layoutX="400.0" layoutY="437.0" text="price" visible="false" />
+      <Label fx:id="price_button3" layoutX="664.0" layoutY="437.0" text="price" visible="false" />
+      <Label fx:id="price_button4" layoutX="914.0" layoutY="434.0" text="price" visible="false" />
+      <Label fx:id="price_button6" layoutX="1380.0" layoutY="437.0" text="price" visible="false" />
+      <Label fx:id="price_button7" layoutX="153.0" layoutY="742.0" text="price" visible="false" />
+      <Label fx:id="price_button8" layoutX="457.0" layoutY="742.0" text="price" visible="false" />
+      <Label fx:id="price_button9" layoutX="749.0" layoutY="742.0" text="price" visible="false" />
+      <Label fx:id="price_button10" layoutX="1011.0" layoutY="742.0" text="price" visible="false" />
+      <Label fx:id="price_button11" layoutX="1311.0" layoutY="742.0" text="price" visible="false" />
+      <Button fx:id="cart_button" layoutX="1231.0" layoutY="92.0" mnemonicParsing="false" onAction="#gotoCart" style="-fx-background-color: LightBlue ;" text="Go to cart">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="welcome" layoutX="96.0" layoutY="59.0" text="Welcome">
+         <font>
+            <Font name="Brush Script MT Italic" size="36.0" />
+         </font></Label>
+      <Button fx:id="jacket_women" layoutX="284.0" layoutY="181.0" mnemonicParsing="false" onAction="#method_jacket1" opacity="0.78" style="-fx-background-color: transparent;" text="jackets" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="sweatshirt_women" layoutX="397.0" layoutY="181.0" mnemonicParsing="false" onAction="#method_sweatshirt1" opacity="0.78" style="-fx-background-color: transparent;" text="sweatshirts" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="sweater_women" layoutX="554.0" layoutY="181.0" mnemonicParsing="false" onAction="#method_sweater1" opacity="0.78" style="-fx-background-color: transparent;" text="sweaters" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="tshirt_women" layoutX="693.0" layoutY="181.0" mnemonicParsing="false" onAction="#method_tshirt1" opacity="0.78" style="-fx-background-color: transparent;" text="T-shirts" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="trousers_women" layoutX="828.0" layoutY="181.0" mnemonicParsing="false" onAction="#method_trousers1" opacity="0.78" style="-fx-background-color: transparent;" text="trousers" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="shoes_women" layoutX="961.0" layoutY="180.0" mnemonicParsing="false" onAction="#method_shoes1" opacity="0.78" style="-fx-background-color: transparent;" text="shoes" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="accesories_women" layoutX="1087.0" layoutY="180.0" mnemonicParsing="false" onAction="#method_accesories1" opacity="0.78" style="-fx-background-color: transparent;" text="accesories" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="label" layoutX="109.0" layoutY="154.0" text="Articles:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="description_button1" layoutX="85.0" layoutY="468.0" text="description" visible="false" />
+      <Label fx:id="description_button2" layoutX="410.0" layoutY="469.0" text="description" visible="false" />
+      <Label fx:id="description_button3" layoutX="658.0" layoutY="461.0" text="description" visible="false" />
+      <Label fx:id="description_button4" layoutX="897.0" layoutY="461.0" text="description" visible="false" />
+      <Label fx:id="description_button5" layoutX="1057.0" layoutY="452.0" text="description" visible="false" />
+      <Label fx:id="description_button6" layoutX="1275.0" layoutY="458.0" text="description" visible="false" />
+      <Label fx:id="description_button7" layoutX="130.0" layoutY="724.0" text="description" visible="false" />
+      <Label fx:id="description_button8" layoutX="411.0" layoutY="733.0" text="description" visible="false" />
+      <Label fx:id="description_button9" layoutX="648.0" layoutY="733.0" text="description" visible="false" />
+      <Label fx:id="description_button10" layoutX="927.0" layoutY="733.0" text="description" visible="false" />
+      <Label fx:id="description_button11" layoutX="1198.0" layoutY="725.0" text="description" visible="false" />
+      <Label fx:id="text_button5" layoutX="1106.0" layoutY="419.0" text="text" visible="false" />
+      <Button fx:id="cart_button1" layoutX="90.0" layoutY="493.0" mnemonicParsing="false" onAction="#product1" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button2" layoutX="372.0" layoutY="493.0" mnemonicParsing="false" onAction="#product2" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button3" layoutX="640.0" layoutY="493.0" mnemonicParsing="false" onAction="#product3" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button4" layoutX="889.0" layoutY="493.0" mnemonicParsing="false" onAction="#product4" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button5" layoutX="1132.0" layoutY="493.0" mnemonicParsing="false" onAction="#product5" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button6" layoutX="1373.0" layoutY="493.0" mnemonicParsing="false" onAction="#product6" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button7" layoutX="115.0" layoutY="797.0" mnemonicParsing="false" onAction="#product7" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button10" layoutX="991.0" layoutY="797.0" mnemonicParsing="false" onAction="#product10" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button9" layoutX="733.0" layoutY="796.0" mnemonicParsing="false" onAction="#product9" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button8" layoutX="432.0" layoutY="797.0" mnemonicParsing="false" onAction="#product8" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="cart_button11" layoutX="1304.0" layoutY="796.0" mnemonicParsing="false" onAction="#product11" style="-fx-background-color: DarkGrey ;" text="Add to cart" visible="false" />
+      <Button fx:id="logout" layoutX="1457.0" layoutY="774.0" mnemonicParsing="false" onAction="#logout" style="-fx-background-color: Gainsboro ;" text="Log out" />
+      <Label fx:id="price_button5" layoutX="1164.0" layoutY="434.0" text="price" visible="false" />
+      <CheckBox fx:id="check1" layoutX="88.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check2" layoutX="136.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check3" layoutX="184.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check4" layoutX="228.0" layoutY="461.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check5" layoutX="377.0" layoutY="460.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check6" layoutX="429.0" layoutY="461.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check7" layoutX="469.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check8" layoutX="512.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check9" layoutX="640.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check10" layoutX="690.0" layoutY="461.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check11" layoutX="741.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check12" layoutX="783.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check13" layoutX="894.0" layoutY="458.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check14" layoutX="939.0" layoutY="459.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check15" layoutX="982.0" layoutY="458.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check16" layoutX="1029.0" layoutY="458.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check17" layoutX="1123.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check18" layoutX="1169.0" layoutY="461.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check19" layoutX="1219.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check20" layoutX="1266.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check21" layoutX="1350.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check22" layoutX="1403.0" layoutY="462.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check23" layoutX="1449.0" layoutY="461.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check24" layoutX="1494.0" layoutY="460.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" visible="false" />
+      <CheckBox fx:id="check25" layoutX="111.0" layoutY="767.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check26" layoutX="158.0" layoutY="768.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check27" layoutX="211.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check28" layoutX="252.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check29" layoutX="413.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check30" layoutX="461.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check31" layoutX="504.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check32" layoutX="546.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check33" layoutX="694.0" layoutY="768.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check34" layoutX="741.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check35" layoutX="791.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check36" layoutX="839.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check37" layoutX="953.0" layoutY="768.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check38" layoutX="1008.0" layoutY="769.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check39" layoutX="1059.0" layoutY="769.0" mnemonicParsing="false" prefWidth="7.0" visible="false" />
+      <CheckBox fx:id="check40" layoutX="1096.0" layoutY="768.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check41" layoutX="1237.0" layoutY="767.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check42" layoutX="1296.0" layoutY="767.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check43" layoutX="1350.0" layoutY="768.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="check44" layoutX="1403.0" layoutY="767.0" mnemonicParsing="false" visible="false" />
+      
+   </children>
+</AnchorPane>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="670.0" prefWidth="1065.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fashionstore.HelloController">
+   <children>
+      <Button fx:id="articles" layoutX="672.0" layoutY="23.0" mnemonicParsing="false" onAction="#switchToArticles" style="-fx-background-color: Gainsboro ;" text="Articles" textFill="#232222">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="sign_in" layoutX="804.0" layoutY="23.0" mnemonicParsing="false" onAction="#switchToSignIn" style="-fx-background-color: Gainsboro ;" text="Sign Up" textFill="#232222">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="log_in" layoutX="937.0" layoutY="23.0" mnemonicParsing="false" onAction="#switchToLogIn" style="-fx-background-color: Gainsboro ;" text="Log In" textFill="#151414">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="99.0" layoutY="63.0" />
+      <Label layoutX="85.0" layoutY="43.0" text="Welcome!">
+         <font>
+            <Font name="Brush Script MT Italic" size="36.0" />
+         </font></Label>
+      <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="473.0" layoutY="632.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../facebook.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="520.0" layoutY="632.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../instagram.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="575.0" layoutY="632.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../twitter.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="626.0" layoutY="632.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pinterest.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="75.0" layoutY="92.0" prefHeight="4.0" prefWidth="953.0" />
+      <Label layoutX="587.0" layoutY="123.0" />
+      <Label layoutX="99.0" layoutY="115.0" text="Join us in embracing the love for fashion!">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="274.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="62.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true" rotate="-16.9">
+         <image>
+            <Image url="@../../../shopping-bag.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="103.0" fitWidth="150.0" layoutX="937.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../mannequin.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="382.0" layoutY="206.0" text="SALE UP TO 50% OFF">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="404.0" layoutY="297.0" text="Find your style from a wide range of product:  ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="382.0" layoutY="340.0" text="jackets">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="469.0" layoutY="340.0" text="sweatshirts">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="582.0" layoutY="340.0" text="sweaters">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="674.0" layoutY="340.0" text="T-shirts">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="392.0" text="trousers">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="530.0" layoutY="392.0" text="shoes">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="619.0" layoutY="392.0" text="accesories">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
