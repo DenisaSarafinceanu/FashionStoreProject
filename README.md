@@ -18,7 +18,7 @@ The classes diagram:
 
 The database diagram:
 
-![Database diagram](diagram_database.png)
+![Database diagram](database.png)
 
 In both the Java Classes and Database table, I started with the same aproach, in which I have a general class Product and it divides into specific types of products (clothes): jackets, sweatshirts, sweaters, tshirts, trousers, shoes and accesories. The data for each of them is taken from the database and then constructed in the ItemController in which you can select the product you want and the size. 
 
