@@ -190,6 +190,11 @@ public class CartController implements Initializable {
 
                     // Remove corresponding labels from UI
                     removeLabels(nameLabel, priceLabel, sizeLabel, colorLabel, delete, imageView);
+                    cartItems.remove(item);
+
+                    total_price = total_price - Float.parseFloat(item.getProduct_price());
+
+                    price_label.setText("Total price: " + String.valueOf(total_price));
 
                     /*
                     Connection connect = null;
