@@ -485,10 +485,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -509,10 +509,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -533,10 +533,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -549,6 +549,7 @@ public class ItemController implements Initializable {
           e.printStackTrace();
       }
       //------------------------------------
+
       sql = "SELECT name, image, price, size FROM jacket WHERE product_id = 60"; // Query to fetch required columns
       try (
               Connection connection = Database.connectDB();
@@ -557,10 +558,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -581,10 +582,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -597,6 +598,7 @@ public class ItemController implements Initializable {
           e.printStackTrace();
       }
       //------------------------------------
+
       sql = "SELECT name, image, price, size FROM jacket WHERE product_id = 62"; // Query to fetch required columns
       try (
               Connection connection = Database.connectDB();
@@ -605,10 +607,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -621,6 +623,7 @@ public class ItemController implements Initializable {
           e.printStackTrace();
       }
       //------------------------------------
+
       sql = "SELECT name, image, price, size FROM jacket WHERE product_id = 63"; // Query to fetch required columns
       try (
               Connection connection = Database.connectDB();
@@ -629,10 +632,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -645,7 +648,8 @@ public class ItemController implements Initializable {
           e.printStackTrace();
       }
       //------------------------------------
-      sql = "SELECT name, image, price, size FROM jacket WHERE product_id = 64"; // Query to fetch required columns
+
+      sql = "SELECT name, image, price, size FROM jacket WHERE product_id =64"; // Query to fetch required columns
       try (
               Connection connection = Database.connectDB();
               Statement statement = connection.createStatement();
@@ -653,10 +657,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -677,10 +681,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -693,6 +697,7 @@ public class ItemController implements Initializable {
           e.printStackTrace();
       }
       //------------------------------------
+
       sql = "SELECT name, image, price, size FROM jacket WHERE product_id = 66"; // Query to fetch required columns
       try (
               Connection connection = Database.connectDB();
@@ -701,10 +706,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -725,10 +730,10 @@ public class ItemController implements Initializable {
 
           // Iterate through the result set and populate productList with fetched data
           while (resultSet.next()) {
-              String name = resultSet.getString("name");
               String image = resultSet.getString("image");
               String price = resultSet.getString("price");
               String size = resultSet.getString("size");
+              String name = resultSet.getString("name");
 
               // Create a Product object and add it to the list
               jacketList.add(new Jacket(name, price, image, size));
@@ -1375,6 +1380,7 @@ public class ItemController implements Initializable {
         cart_button9.setVisible(true);
         cart_button10.setVisible(true);
         cart_button11.setVisible(true);
+
         String sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id = 68"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -1383,10 +1389,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1399,6 +1405,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id = 69"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -1407,10 +1414,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1423,6 +1430,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id = 70"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -1431,10 +1439,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1447,6 +1455,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id = 71"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -1455,10 +1464,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1479,10 +1488,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1495,6 +1504,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id = 73"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -1503,10 +1513,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1519,7 +1529,8 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
-        sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id = 74"; // Query to fetch required columns
+
+        sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id =74"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
                 Statement statement = connection.createStatement();
@@ -1527,10 +1538,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1543,6 +1554,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id = 75"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -1551,10 +1563,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1575,10 +1587,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1591,6 +1603,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweatshirt WHERE product_id = 77"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -1599,10 +1612,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -1623,10 +1636,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweatshirtList.add(new Sweatshirt(name, price, image, size));
@@ -2273,6 +2286,7 @@ public class ItemController implements Initializable {
         cart_button9.setVisible(true);
         cart_button10.setVisible(true);
         cart_button11.setVisible(true);
+
         String sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 79"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2281,10 +2295,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2297,6 +2311,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 80"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2305,13 +2320,13 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
-                sweaterList.add(new Sweater(name, price, image , size));
+                sweaterList.add(new Sweater(name, price, image, size));
             }
 
             // Now productList contains the data retrieved from the database
@@ -2321,6 +2336,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 81"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2329,10 +2345,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2345,6 +2361,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 82"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2353,10 +2370,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2369,6 +2386,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 83"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2377,10 +2395,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2393,6 +2411,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 84"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2401,10 +2420,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2417,6 +2436,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 85"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2425,10 +2445,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2441,7 +2461,8 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
-        sql = "SELECT name, image, price, size FROM sweater WHERE product_id =86"; // Query to fetch required columns
+
+        sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 86"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
                 Statement statement = connection.createStatement();
@@ -2449,10 +2470,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2465,6 +2486,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 87"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2473,10 +2495,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2489,6 +2511,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 88"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2497,10 +2520,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -2513,6 +2536,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM sweater WHERE product_id = 89"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -2521,10 +2545,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 sweaterList.add(new Sweater(name, price, image, size));
@@ -3170,6 +3194,7 @@ public class ItemController implements Initializable {
         cart_button9.setVisible(true);
         cart_button10.setVisible(true);
         cart_button11.setVisible(true);
+
         String sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 90"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3178,10 +3203,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3194,6 +3219,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 91"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3202,10 +3228,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3218,6 +3244,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 92"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3226,10 +3253,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3242,6 +3269,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 93"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3250,10 +3278,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3266,6 +3294,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 94"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3274,10 +3303,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3290,6 +3319,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 95"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3298,10 +3328,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3314,6 +3344,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 96"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3322,10 +3353,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3338,6 +3369,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 97"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3346,10 +3378,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3362,6 +3394,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 98"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3370,10 +3403,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3386,6 +3419,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 99"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3394,10 +3428,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 tShirtList.add(new TShirt(name, price, image, size));
@@ -3410,6 +3444,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM tshirt WHERE product_id = 100"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -3418,13 +3453,13 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
-                tShirtList.add(new TShirt(name, price,image, size));
+                tShirtList.add(new TShirt(name, price, image, size));
             }
 
             // Now productList contains the data retrieved from the database
@@ -4069,6 +4104,7 @@ public class ItemController implements Initializable {
         cart_button9.setVisible(true);
         cart_button10.setVisible(true);
         cart_button11.setVisible(true);
+
         String sql = "SELECT name, image, price, size FROM trousers WHERE product_id = 101"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4077,10 +4113,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4093,6 +4129,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM trousers WHERE product_id = 102"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4101,10 +4138,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4125,10 +4162,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4141,6 +4178,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM trousers WHERE product_id = 104"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4149,10 +4187,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4165,6 +4203,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM trousers WHERE product_id = 105"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4173,10 +4212,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4189,6 +4228,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM trousers WHERE product_id = 106"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4197,10 +4237,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4213,6 +4253,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM trousers WHERE product_id = 107"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4221,10 +4262,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4237,6 +4278,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM trousers WHERE product_id = 108"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4245,10 +4287,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4261,6 +4303,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM trousers WHERE product_id = 109"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4269,10 +4312,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4293,10 +4336,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4317,10 +4360,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 trousersList.add(new Trousers(name, price, image, size));
@@ -4966,6 +5009,7 @@ public class ItemController implements Initializable {
         cart_button9.setVisible(true);
         cart_button10.setVisible(true);
         cart_button11.setVisible(true);
+
         String sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 112"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4974,10 +5018,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 shoesList.add(new Shoes(name, price, image, size));
@@ -4990,6 +5034,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 113"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -4998,10 +5043,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 shoesList.add(new Shoes(name, price, image, size));
@@ -5014,6 +5059,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 114"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5022,10 +5068,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 shoesList.add(new Shoes(name, price, image, size));
@@ -5038,6 +5084,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 115"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5046,10 +5093,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 shoesList.add(new Shoes(name, price, image, size));
@@ -5062,6 +5109,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 116"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5070,13 +5118,13 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
-                shoesList.add(new Shoes(name, price,  image, size));
+                shoesList.add(new Shoes(name, price, image, size));
             }
 
             // Now productList contains the data retrieved from the database
@@ -5086,6 +5134,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 117"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5094,13 +5143,13 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
-                shoesList.add(new Shoes(name, price,  image, size));
+                shoesList.add(new Shoes(name, price, image, size));
             }
 
             // Now productList contains the data retrieved from the database
@@ -5110,6 +5159,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 118"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5118,10 +5168,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 shoesList.add(new Shoes(name, price, image, size));
@@ -5134,6 +5184,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 119"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5142,10 +5193,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 shoesList.add(new Shoes(name, price, image, size));
@@ -5158,6 +5209,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 120"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5166,13 +5218,13 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
-                shoesList.add(new Shoes(name, price,image, size));
+                shoesList.add(new Shoes(name, price, image, size));
             }
 
             // Now productList contains the data retrieved from the database
@@ -5182,6 +5234,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 121"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5190,10 +5243,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 shoesList.add(new Shoes(name, price, image, size));
@@ -5206,6 +5259,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price, size FROM shoes WHERE product_id = 122"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5214,10 +5268,10 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
                 String size = resultSet.getString("size");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 shoesList.add(new Shoes(name, price, image, size));
@@ -5865,7 +5919,8 @@ public class ItemController implements Initializable {
         cart_button9.setVisible(true);
         cart_button10.setVisible(true);
         cart_button11.setVisible(true);
-        String sql = "SELECT name, image, price FROM accesories WHERE product_id = 123"; // Query to fetch required columns
+
+        String sql = "SELECT name, image, price FROM accesories WHERE product_id = 142"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
                 Statement statement = connection.createStatement();
@@ -5873,9 +5928,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -5888,7 +5943,8 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
-        sql = "SELECT name, image, price FROM accesories WHERE product_id = 124"; // Query to fetch required columns
+
+        sql = "SELECT name, image, price FROM accesories WHERE product_id = 143"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
                 Statement statement = connection.createStatement();
@@ -5896,9 +5952,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -5911,6 +5967,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 125"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5919,12 +5976,12 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
-                accesoriesList.add(new Accesories(name, price,image));
+                accesoriesList.add(new Accesories(name, price, image));
             }
 
             // Now productList contains the data retrieved from the database
@@ -5934,6 +5991,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 126"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5942,9 +6000,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -5957,6 +6015,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 127"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5965,9 +6024,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -5980,6 +6039,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 128"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -5988,9 +6048,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -6003,6 +6063,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 129"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -6011,9 +6072,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -6026,6 +6087,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 130"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -6034,9 +6096,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -6049,6 +6111,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 131"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -6057,9 +6120,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -6072,6 +6135,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 132"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -6080,9 +6144,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -6095,6 +6159,7 @@ public class ItemController implements Initializable {
             e.printStackTrace();
         }
         //------------------------------------
+
         sql = "SELECT name, image, price FROM accesories WHERE product_id = 133"; // Query to fetch required columns
         try (
                 Connection connection = Database.connectDB();
@@ -6103,9 +6168,9 @@ public class ItemController implements Initializable {
 
             // Iterate through the result set and populate productList with fetched data
             while (resultSet.next()) {
-                String name = resultSet.getString("name");
                 String image = resultSet.getString("image");
                 String price = resultSet.getString("price");
+                String name = resultSet.getString("name");
 
                 // Create a Product object and add it to the list
                 accesoriesList.add(new Accesories(name, price, image));
@@ -6398,18 +6463,66 @@ public class ItemController implements Initializable {
         }
     }
 
+    /*
+    public void createNewOrder(Integer order_id){
+        try {
+            // Establish the database connection
+            connect = Database.connectDB();
+
+            // Check if the connection is successfully established
+            if (connect != null) {
+                String insertData = "INSERT INTO order (product_id, size, user_id, product_name) VALUES (?, ?, ?, ?)";
+                try (PreparedStatement prepare = connect.prepareStatement(insertData)) {
+                    //LocalDateTime currentDate = LocalDateTime.now();
+                    //java.sql.Timestamp timestamp = java.sql.Timestamp.valueOf(currentDate);
+                    getUserId();
+                    //prepare.setTimestamp(1, timestamp);
+                    prepare.setInt(1, data1.getProduct_id());
+                    prepare.setString(2, size);
+                    prepare.setInt(3, data.getUser_id());
+                    prepare.setString(4, name);
+                    prepare.executeUpdate();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                    // Handle SQL exceptions or alert user
+                }
+            } else {
+                // Handle the case where the connection is null
+                System.out.println("Failed to establish database connection.");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }*/
+
 
     DataSingleton2 data1 = DataSingleton2.getInstance();
     public void product1(ActionEvent event){
         AlertMessages alert = new AlertMessages();
         getUserId();
+        String name = null;
         if(data.getUsername() == null){
             alert.errorMessage("You have to log in first!");
         } else {
             if (label.getText() == "Jackets") {
                 data1.setProduct_id(57);
 
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 57"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 57";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 57"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -6417,7 +6530,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -6516,7 +6628,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to log in first!");
                 } else {
                     data1.setProduct_id(68);
-                    String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 68"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 68";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 68"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -6524,7 +6650,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -6620,7 +6745,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to log in first!");
                 } else {
                     data1.setProduct_id(79);
-                    String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 79"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 79";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT  image, price, color FROM sweater WHERE product_id = 79"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -6628,7 +6767,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -6724,7 +6862,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to log in first!");
                 } else {
                     data1.setProduct_id(90);
-                    String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 90"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 90";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 90"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -6732,7 +6884,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -6827,7 +6978,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to log in first!");
                 } else {
                     data1.setProduct_id(101);
-                    String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 101"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 101";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color FROM trousers WHERE product_id = 101"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -6835,7 +7000,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -6929,7 +7093,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to log in first!");
                 } else {
                     data1.setProduct_id(112);
-                    String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 112"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 112";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color FROM shoes WHERE product_id = 112"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -6937,7 +7115,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -7033,7 +7210,21 @@ public class ItemController implements Initializable {
                 } else {
                     alert.successMessage("The item has been added successfully to the cart!");
                     data1.setProduct_id(123);
-                    String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 123"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 123";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 123"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -7041,7 +7232,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -7109,13 +7299,28 @@ public class ItemController implements Initializable {
     public void product2(ActionEvent event){
         AlertMessages alert = new AlertMessages();
         getUserId();
+        String name = null;
         if(label.getText() == "Jackets") {
             if(data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(58);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 58"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 58";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 58"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -7123,7 +7328,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -7219,7 +7423,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(69);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 69"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 69";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 69"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -7227,7 +7445,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -7323,7 +7540,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(80);
-                String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 80"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 80";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweater WHERE product_id = 80"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -7331,7 +7562,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -7427,7 +7657,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(91);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 91"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 91";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 91"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -7435,7 +7679,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -7531,7 +7774,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(102);
-                String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 102"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 102";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM trousers WHERE product_id = 102"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -7539,7 +7796,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -7635,7 +7891,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(113);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 113"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 113";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 113"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -7643,7 +7913,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -7739,7 +8008,21 @@ public class ItemController implements Initializable {
             } else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(124);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 124"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 124";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 124"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -7747,7 +8030,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -7813,13 +8095,28 @@ public class ItemController implements Initializable {
     public void product3(ActionEvent event){
         AlertMessages alert = new AlertMessages();
         getUserId();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(59);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 59"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 59";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 59"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -7827,7 +8124,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -7923,7 +8219,21 @@ public class ItemController implements Initializable {
             }
             else {
             data1.setProduct_id(70);
-            String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 70"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 70";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 70"; // Query to fetch required columns
             try (
                     Connection connection = Database.connectDB();
                     Statement statement = connection.createStatement();
@@ -7931,7 +8241,6 @@ public class ItemController implements Initializable {
 
                 // Iterate through the result set and populate productList with fetched data
                 while (resultSet.next()) {
-                    String name = resultSet.getString("name");
                     String image = resultSet.getString("image");
                     String price = resultSet.getString("price");
                     String color = resultSet.getString("color");
@@ -8027,7 +8336,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(81);
-                String sql = "SELECT name, image, price, color, size FROM sweater WHERE product_id = 81"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 81";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM sweater WHERE product_id = 81"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8035,7 +8358,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8131,7 +8453,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(92);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 92"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 92";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 92"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8139,7 +8475,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8236,7 +8571,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(103);
-                String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 103"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 103";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM trousers WHERE product_id = 103"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8244,7 +8593,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8340,7 +8688,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(114);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 114"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 114";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 114"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8348,7 +8710,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8444,7 +8805,21 @@ public class ItemController implements Initializable {
             } else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(125);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 125"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 125";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 125"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8452,7 +8827,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8518,13 +8892,28 @@ public class ItemController implements Initializable {
     public void product4(ActionEvent event){
         AlertMessages alert = new AlertMessages();
         getUserId();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(60);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 60"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 60";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 60"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8532,7 +8921,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8628,7 +9016,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(71);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 71"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 71";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 71"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8636,7 +9038,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8732,7 +9133,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(82);
-                String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 82"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 82";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweater WHERE product_id = 82"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8740,7 +9155,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8836,7 +9250,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(93);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 93"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 93";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 93"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8844,7 +9272,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -8939,7 +9366,21 @@ public class ItemController implements Initializable {
                 alert.errorMessage("You have to log in first!");
             } else {
                 data1.setProduct_id(104);
-                String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 104"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 104";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM trousers WHERE product_id = 104"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -8947,7 +9388,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9043,7 +9483,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(115);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 115"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 115";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 115"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9051,7 +9505,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9147,7 +9600,21 @@ public class ItemController implements Initializable {
             } else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(126);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 126"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 126";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 126"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9155,7 +9622,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9221,13 +9687,28 @@ public class ItemController implements Initializable {
     public void product5(ActionEvent event){
         AlertMessages alert = new AlertMessages();
         getUserId();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(61);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 61"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 61";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 61"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9235,7 +9716,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9331,7 +9811,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(72);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 72"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 72";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 72"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9339,7 +9833,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9435,7 +9928,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(83);
-                String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 83"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 83";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweater WHERE product_id = 83"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9443,7 +9950,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9539,7 +10045,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(94);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 94"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 94";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 94"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9547,7 +10067,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9643,7 +10162,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(105);
-                String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 105"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 105";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM trousers WHERE product_id = 105"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9651,7 +10184,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9747,7 +10279,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(116);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 116"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 116";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 116"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9755,7 +10301,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9851,7 +10396,21 @@ public class ItemController implements Initializable {
             } else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(127);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 127"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 127";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 127"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9859,7 +10418,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -9925,13 +10483,28 @@ public class ItemController implements Initializable {
     public void product6(ActionEvent event){
         AlertMessages alert = new AlertMessages();
         getUserId();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(62);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 62"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 62";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 62"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -9939,7 +10512,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -10034,7 +10606,21 @@ public class ItemController implements Initializable {
                 alert.errorMessage("You have to log in first!");
             } else {
                 data1.setProduct_id(73);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 73"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 73";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 73"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -10042,7 +10628,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -10140,7 +10725,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to logg in first!");
                 } else {
                     data1.setProduct_id(84);
-                    String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 84"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 84";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color FROM sweater WHERE product_id = 84"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -10148,7 +10747,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -10243,7 +10841,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to log in first!");
                 } else {
                     data1.setProduct_id(95);
-                    String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 95"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 95";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT  image, price, color FROM tshirt WHERE product_id = 95"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -10251,7 +10863,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -10346,7 +10957,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to log in first!");
                 } else {
                     data1.setProduct_id(106);
-                    String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 106"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 106";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color FROM trousers WHERE product_id = 106"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -10354,7 +10979,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -10449,7 +11073,21 @@ public class ItemController implements Initializable {
                     alert.errorMessage("You have to log in first!");
                 } else {
                     data1.setProduct_id(117);
-                    String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 117"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 117";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color FROM shoes WHERE product_id = 117"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -10457,7 +11095,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -10553,7 +11190,21 @@ public class ItemController implements Initializable {
                 } else {
                     alert.successMessage("The item has been added successfully to the cart!");
                     data1.setProduct_id(128);
-                    String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 128"; // Query to fetch required columns
+                    String select = "SELECT name FROM product where product_id = 128";
+                    try (
+                            Connection connection = Database.connectDB();
+                            Statement statement = connection.createStatement();
+                            ResultSet resultSet = statement.executeQuery(select)) {
+
+                        // Iterate through the result set and populate productList with fetched data
+                        while (resultSet.next()) {
+                            name = resultSet.getString("name");
+                        }
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                    String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 128"; // Query to fetch required columns
                     try (
                             Connection connection = Database.connectDB();
                             Statement statement = connection.createStatement();
@@ -10561,7 +11212,6 @@ public class ItemController implements Initializable {
 
                         // Iterate through the result set and populate productList with fetched data
                         while (resultSet.next()) {
-                            String name = resultSet.getString("name");
                             String image = resultSet.getString("image");
                             String price = resultSet.getString("price");
                             String color = resultSet.getString("color");
@@ -10627,13 +11277,28 @@ public class ItemController implements Initializable {
     public void product7(ActionEvent event){
         AlertMessages alert = new AlertMessages();
         getUserId();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(63);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 63"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 63";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 63"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -10641,7 +11306,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -10737,7 +11401,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(74);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 74"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 74";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 74"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -10745,7 +11423,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -10841,7 +11518,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(85);
-                String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 85"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 85";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweater WHERE product_id = 85"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -10849,7 +11540,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -10945,7 +11635,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(96);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 96"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 96";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 96"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -10953,7 +11657,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11049,7 +11752,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(107);
-                String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 107"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 107";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM trousers WHERE product_id = 107"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11057,7 +11774,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11153,7 +11869,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(118);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 118"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 118";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 118"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11161,7 +11891,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11257,7 +11986,21 @@ public class ItemController implements Initializable {
             else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(129);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 129"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 129";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 129"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11265,7 +12008,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11330,13 +12072,28 @@ public class ItemController implements Initializable {
 
     public void product8(ActionEvent event){
         AlertMessages alert = new AlertMessages();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(64);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 64"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 64";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 64"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11344,7 +12101,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11439,7 +12195,21 @@ public class ItemController implements Initializable {
                 alert.errorMessage("You have to log in first!");
             } else {
                 data1.setProduct_id(75);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 75"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 75";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 75"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11447,7 +12217,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11543,7 +12312,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(86);
-                String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 86"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 86";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweater WHERE product_id = 86"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11551,7 +12334,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11647,7 +12429,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(97);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 97"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 97";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 97"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11655,7 +12451,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11751,7 +12546,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(108);
-                String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 108"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 108";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM trousers WHERE product_id = 108"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11759,7 +12568,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -11856,7 +12664,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(119);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 119"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 119";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 119"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11864,8 +12686,7 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
-                        String image = resultSet.getString("image");
+                       String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
 
@@ -11961,7 +12782,21 @@ public class ItemController implements Initializable {
             else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(130);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 130"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 130";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 130"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -11969,7 +12804,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12035,13 +12869,28 @@ public class ItemController implements Initializable {
 
     public void product9(ActionEvent event){
         AlertMessages alert = new AlertMessages();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(65);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 65"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 65";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 65"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12049,7 +12898,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12145,7 +12993,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(76);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 76"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 76";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 76"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12153,7 +13015,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12249,7 +13110,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(87);
-                String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 87"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 87";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweater WHERE product_id = 87"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12257,7 +13132,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12353,7 +13227,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(98);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 98"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 98";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT  image, price, color FROM tshirt WHERE product_id = 98"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12361,7 +13249,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12456,7 +13343,21 @@ public class ItemController implements Initializable {
                 alert.errorMessage("You have to log in first!");
             } else {
                 data1.setProduct_id(109);
-                String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 109"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 109";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM trousers WHERE product_id = 109"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12464,7 +13365,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12560,7 +13460,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(120);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 120"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 120";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 120"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12568,7 +13482,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12665,7 +13578,21 @@ public class ItemController implements Initializable {
             else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(131);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 131"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 131";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 131"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12673,7 +13600,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12738,13 +13664,28 @@ public class ItemController implements Initializable {
 
     public void product10(ActionEvent event){
         AlertMessages alert = new AlertMessages();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(66);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 66"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 66";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 66"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12752,7 +13693,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12848,7 +13788,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(77);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 77"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 77";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 77"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12856,7 +13810,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -12952,7 +13905,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(88);
-                String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 88"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 88";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweater WHERE product_id = 88"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -12960,7 +13927,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13056,7 +14022,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(99);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 99"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 99";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 99"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13064,7 +14044,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13160,7 +14139,21 @@ public class ItemController implements Initializable {
             }
             else {
             data1.setProduct_id(110);
-            String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 110"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 110";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            String sql = "SELECT image, price, color FROM trousers WHERE product_id = 110"; // Query to fetch required columns
             try (
                     Connection connection = Database.connectDB();
                     Statement statement = connection.createStatement();
@@ -13168,7 +14161,6 @@ public class ItemController implements Initializable {
 
                 // Iterate through the result set and populate productList with fetched data
                 while (resultSet.next()) {
-                    String name = resultSet.getString("name");
                     String image = resultSet.getString("image");
                     String price = resultSet.getString("price");
                     String color = resultSet.getString("color");
@@ -13263,7 +14255,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(121);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 121"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 121";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 121"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13271,7 +14277,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13368,7 +14373,21 @@ public class ItemController implements Initializable {
             else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(132);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 132"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 132";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 132"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13376,7 +14395,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13441,13 +14459,28 @@ public class ItemController implements Initializable {
 
     public void product11(ActionEvent event){
         AlertMessages alert = new AlertMessages();
+        String name = null;
         if(label.getText() == "Jackets") {
             if (data.getUsername() == null) {
                 alert.errorMessage("You have to log in first!");
             }
             else {
                 data1.setProduct_id(67);
-                String sql = "SELECT name, image, price, color FROM jacket WHERE product_id = 67"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 67";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM jacket WHERE product_id = 67"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13455,7 +14488,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13551,7 +14583,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(78);
-                String sql = "SELECT name, image, price, color FROM sweatshirt WHERE product_id = 78"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 78";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweatshirt WHERE product_id = 78"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13559,7 +14605,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13655,7 +14700,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(89);
-                String sql = "SELECT name, image, price, color FROM sweater WHERE product_id = 89"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 89";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM sweater WHERE product_id = 89"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13663,7 +14722,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13759,7 +14817,21 @@ public class ItemController implements Initializable {
             } else {
 
                 data1.setProduct_id(100);
-                String sql = "SELECT name, image, price, color FROM tshirt WHERE product_id = 100"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 100";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM tshirt WHERE product_id = 100"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13767,7 +14839,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13863,7 +14934,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(111);
-                String sql = "SELECT name, image, price, color FROM trousers WHERE product_id = 111"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 111";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM trousers WHERE product_id = 111"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13871,7 +14956,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -13967,7 +15051,21 @@ public class ItemController implements Initializable {
             }
             else {
                 data1.setProduct_id(122);
-                String sql = "SELECT name, image, price, color FROM shoes WHERE product_id = 122"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 122";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color FROM shoes WHERE product_id = 122"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -13975,7 +15073,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
@@ -14071,7 +15168,21 @@ public class ItemController implements Initializable {
             } else {
                 alert.successMessage("The item has been added successfully to the cart!");
                 data1.setProduct_id(133);
-                String sql = "SELECT name, image, price, color, size FROM accesories WHERE product_id = 133"; // Query to fetch required columns
+                String select = "SELECT name FROM product where product_id = 133";
+                try (
+                        Connection connection = Database.connectDB();
+                        Statement statement = connection.createStatement();
+                        ResultSet resultSet = statement.executeQuery(select)) {
+
+                    // Iterate through the result set and populate productList with fetched data
+                    while (resultSet.next()) {
+                        name = resultSet.getString("name");
+                    }
+
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                String sql = "SELECT image, price, color, size FROM accesories WHERE product_id = 133"; // Query to fetch required columns
                 try (
                         Connection connection = Database.connectDB();
                         Statement statement = connection.createStatement();
@@ -14079,7 +15190,6 @@ public class ItemController implements Initializable {
 
                     // Iterate through the result set and populate productList with fetched data
                     while (resultSet.next()) {
-                        String name = resultSet.getString("name");
                         String image = resultSet.getString("image");
                         String price = resultSet.getString("price");
                         String color = resultSet.getString("color");
